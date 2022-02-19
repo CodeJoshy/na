@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: blue;
+}
+
+*{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+}
+
+.image{
+    width: 10%;
+    height: 500;
+    
+}
+
+
+ 
+
+
+
+/*form*/
+.for{
+    border-radius: 50px;
+    background-color:  gainsboro;
+    padding: 20px;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input{
+    padding: 15px;
+    background-color:whitesmoke;
+    color: black;
+  }
+
+  input[type=submit]:hover {
+    background-color: blueviolet; }
